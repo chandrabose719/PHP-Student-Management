@@ -1,0 +1,415 @@
+/*Header Part*/
+#headerPart{
+
+}
+#headerPart .navbar-brand a{
+  font-size:25px;   
+}
+#headerPart a:hover{
+  text-decoration:none;
+  color:#003cb3;   
+}
+#headerPart a{
+  color:#ff6666;   
+}
+
+/*Login Part*/
+#loginPart{
+  background: rgb(255,255,241);
+  width:100%;
+  height:90vh;
+  background-size:cover;  
+}
+#loginPart .container{
+  padding-top: 90px;
+}
+#loginPart .login-form{
+  padding:10px; 
+  background-color:lightgrey; 
+  border-radius:10px;
+  width:450px;
+  height:380px;  
+}
+#loginPart .form-group{
+  padding-left:10px;
+  padding-top: 20px;  
+}
+#loginPart h1, p{
+  text-align:center;   
+}
+#loginPart .divider{
+  text-align:center;
+  border-radius:50%; 
+  padding:1px;
+  background:white;
+}
+#loginPart .btn-submission{
+  text-align:center;  
+  padding:5px;
+}
+#loginPart .btn{
+  text-align:center;  
+  width:140px;
+}
+#loginPart a:hover{
+  text-decoration:none;
+  color:blue;   
+}
+
+/*Home Part*/
+#homePart{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bg-main.jpg) top center fixed;
+  width:100%;
+  height:100vh;
+  background-size:cover;  
+}
+#homePart .container{
+  padding-top: 160px;
+}
+#homePart .main-text h2{
+  text-align:center;   
+  color:white; 
+  font-size:50px;
+  font-family: cursive;  
+  padding-bottom:15px;
+}
+#homePart .main-text h4{
+  text-align:center;   
+  color:white; 
+  font-size:30px;  
+  padding-bottom:15px; 
+}
+#homePart .main-text p{
+  text-align:center;   
+  color:white; 
+  font-size:40px; 
+}
+
+/*Mark Part*/
+#markPart{
+  background: rgb(255,255,241);
+  width:100%;
+  height:110vh;
+  background-size:cover;  
+}
+#markPart .container{
+  padding-top: 90px;
+}
+#markPart .well{
+  font-size:15px;
+}
+#markPart .well a{
+  font-size:15px;
+  text-decoration:none;
+}
+#markPart .student-mark{
+  padding:10px; 
+  text-align: center;
+  margin:auto;
+}
+#markPart .view-table{ 
+/*  padding:20px;*/ 
+  width:700px;
+  text-align: center;
+  margin: auto;
+}
+#markPart .table{ 
+/*  padding:20px;*/ 
+  width:700px;
+  text-align: center;
+  margin: auto;
+}
+#markPart .table th{
+  text-align: center;
+}
+
+/*Subject Part*/
+#subjectPart{
+  background: rgb(255,255,241);
+  width:100%;
+  height:110vh;
+  background-size:cover;  
+}
+#subjectPart .container{
+  padding-top: 90px;
+}
+#subjectPart .well{
+  font-size:15px;
+}
+#subjectPart .well a{
+  font-size:15px;
+  text-decoration:none;
+}
+#subjectPart .student-mark{
+  padding:10px; 
+  text-align: center;
+  margin:auto;
+}
+#subjectPart .view-table{ 
+  width:1000px;
+  text-align: center;
+  margin: auto;
+}
+#subjectPart .table{
+  text-align: center;
+  margin: auto;
+}
+#subjectPart .table th{
+  text-align: center;
+}
+/*Fees Part*/
+#feePart{
+  background: rgb(255,255,241);
+  width:100%;
+  height:110vh;
+  background-size:cover;  
+}
+#feePart .container{
+  padding-top: 90px;
+}
+#feePart .well{
+  font-size:15px;
+}
+#feePart .well a{
+  font-size:15px;
+  text-decoration:none;
+}
+#feePart .student-mark{
+  padding:10px; 
+  text-align: center;
+  margin:auto;
+}
+#feePart .view-table{ 
+  width:1000px;
+  text-align: center;
+  margin: auto;
+}
+#feePart .table{
+  text-align: center;
+  margin: auto;
+}
+#feePart .table th{
+  text-align: center;
+}
+
+
+/*Login Part*/
+#loginPart{
+  width: 100%;
+  height:100vh;
+}
+#loginPart .container{
+  padding-top:90px;
+  padding-left:30%;   
+}
+#loginPart .login{
+  padding:10px;    
+  background:lightgrey; 
+  border-radius:10px; 
+  width:350px;
+  height:400px;
+}
+#loginPart .login h1{  
+  text-align:center; 
+}
+#loginPart .login .divider{  
+  text-align:center;
+  border-radius:50%; 
+  padding:1px;
+  background:white;
+  width:330px;   
+}
+#loginPart .login td{
+  padding-top:20px;
+  padding-left:30px;
+}
+#loginPart .login label{
+  font-size:15px;  
+}
+#loginPart .login input{
+  border-radius:8px; 
+  width:250px;
+  height:40px;  
+}
+#loginPart .login p{  
+  text-align:center; 
+  padding-top:10px;
+}
+
+/*Register Part*/
+#registerPart{
+  width:100%;
+  height:135vh;
+}
+#registerPart .container{
+  padding-left:30%;
+  padding-top:90px;
+}
+#registerPart .container .register{
+  background-color:grey; 
+  padding:10px;
+  border-radius:10px;
+  width:330px;
+  height:630px; 
+}
+#registerPart .register h1{
+  text-align:center; 
+}
+#registerPart .register .divider{
+  text-align:center;
+  background-color:white;
+  border-radius:90%;
+  padding:1px;    
+}
+#registerPart .register td{
+  padding-top:10px;
+  padding-left:25px;  
+}
+#registerPart .register label{
+  font-size:15px; 
+}
+#registerPart .register input{
+  border-radius:8px;
+  width:240px;
+  height:40px;   
+}
+#registerPart .register p{
+  text-align:center; 
+  padding-top:10px;
+}
+/*Footer Part*/
+#footerPart{
+  background:#111;
+  color:#fff;
+  padding:20px;   
+}
+
+/*Product Part*/
+#productPart{
+  width:100%;
+  height:140vh; 
+}
+#productPart .container{
+  padding-top:90px;
+  padding-bottom:20px;  
+}
+#productPart .product{
+  width:200px;
+  height:250px; 
+  background-color:lightgrey; 
+  border-radius:8px;
+  text-align:center; 
+  padding-bottom:10px; 
+}
+#productPart .row{
+  padding-bottom:10px; 
+}
+#productPart .product:hover{
+  opacity:0.9%; 
+}
+#productPart .product .product-image{
+  text-align:center; 
+}
+#productPart .product .product-image img{
+  max-width:100%; 
+}
+#productPart .product p{
+  text-align:center;
+  padding-top:10px;
+  font-size:15px;   
+}
+#productPart .product .btn-success{
+  text-align:center; 
+}
+
+/*Admin Part*/
+#adminPart{
+  width: 100%;
+  height:100vh;
+}
+#adminPart .container{
+  padding-top:90px;
+  padding-left:30%;   
+}
+#adminPart .login{
+  padding:10px;    
+  background:lightgrey; 
+  border-radius:10px; 
+  width:350px;
+  height:400px;
+}
+#adminPart .login h1{  
+  text-align:center; 
+}
+#adminPart .login .divider{  
+  text-align:center;
+  border-radius:50%; 
+  padding:1px;
+  background:white;
+  width:330px;   
+}
+#adminPart .login td{
+  padding-top:20px;
+  padding-left:30px;
+}
+#adminPart .login label{
+  font-size:15px;  
+}
+#adminPart .login input{
+  border-radius:8px; 
+  width:250px;
+  height:40px;  
+}
+#adminPart .login p{  
+  text-align:center; 
+  padding-top:10px;
+}
+
+/*View Part*/
+#viewPart{
+  width:100%;
+  height:100vh;
+}
+#viewPart .container{
+  padding-top:90px;   
+}
+#viewPart .view h1{
+  padding-bottom:30px;   
+}
+#viewPart .view table tr {
+  border:1.5px solid black;
+}
+#viewPart .view label{
+  padding:20px;   
+}
+
+/*Add Part*/
+#addPart{
+  width:100%;
+  height:110vh;
+}
+#addPart .container{
+  padding-top:90px;   
+}
+#addPart .add h1{
+  padding-bottom:30px;
+  text-align:center;    
+}
+#addPart .add td{
+  padding:10px;    
+}
+#addPart .add td input{
+  padding-bottom:20px;
+  width:400px;
+  height:45px;
+  border-radius:10px;
+  border-bottom:2px solid green;      
+}
+#addPart .add .btn-submit{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#addPart .add input{
+  width:370px;
+  height:35px;
+}
